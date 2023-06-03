@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 245, 190);
+}
+
+a{
+    text-decoration: none;
+}
+.bg{
+    background-color: black;
+}
+.acercar{
+    overflow: hidden;
+
+}
+.acercar img{
+    transition: all 2s;
+}
+.acercar:hover img{
+    transform: scale(1.5);
+}
+.card{
+background-color: pink;
+}
